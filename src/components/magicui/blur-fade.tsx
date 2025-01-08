@@ -17,6 +17,7 @@ interface BlurFadeProps {
   inViewMargin?: any;
   blur?: string;
 }
+
 const BlurFade = ({
   children,
   className,
