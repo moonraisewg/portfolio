@@ -74,30 +74,79 @@ export const DATA = {
 
   work: [
     {
-      company: "TBA",
-      href: "#",
-      badges: [],
-      location: "Remote",
-      title: "TBA",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      company: "POLYQUEST",
+      href: "https://polyquest.xyz/",
+      badges: ["Solana", "Gaming", "On-chain Quests", "Web3"],
+      location: "KR",
+      title: "Polyquest",
+      logoUrl: "https://polyquest.xyz/favicon.ico",
+      start: "TBA",
+      end: "Present",
       description:
-        "TBA",
+        "Polyquest is an on-chain quest platform powered by Solana, designed for gamers and Web3 communities to engage with decentralized applications through gamified experiences.",
     },
     {
-      company: "TBA",
-      badges: [],
-      href: "#",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      company: "UNKOMON",
+      href: "https://x.com/unkomon_xyz",
+      badges: ["SocialFi", "NFT", "Solana", "Web3"],
+      location: "JP",
+      title: "UNKOMON",
+      logoUrl: "https://pbs.twimg.com/profile_images/1879805337710350336/WPGCPRvv_400x400.jpg",
+      start: "TBA",
+      end: "Present",
       description:
-        "TBA",
+        "UNKOMON is a SocialFi project on Solana blending NFTs and social engagement, aiming to create a unique decentralized identity and interaction experience.",
+    },
+    {
+      company: "Solid",
+      href: "https://mysolid.io/",
+      badges: ["KYC", "Web3", "Privacy"],
+      location: "US",
+      title: "Solid",
+      logoUrl: "https://mysolid.io/logo_black.svg",
+      start: "TBA",
+      end: "Present",
+      description:
+        "Solid is a Web3 platform offering privacy-first KYC services that empower users to verify identities while maintaining control over personal data.",
+    },
+    {
+      company: "DePocket",
+      href: "https://www.depocket.com/",
+      badges: ["DeFi", "Multi-chain", "NFT", "Web3"],
+      location: "VN",
+      title: "DePocket",
+      logoUrl: "https://www.depocket.com/favicon.ico",
+      start: "TBA",
+      end: "Present",
+      description:
+        "DePocket is a multi-chain DeFi dashboard that allows users to manage crypto assets, DeFi protocols, and NFTs across multiple blockchains in one place.",
+    },
+    {
+      company: "Bullbot",
+      href: "https://bullbot.ai/",
+      badges: ["Telegram Bot", "Solana", "DEX & CEX", "Web3"],
+      location: "UK",
+      title: "Bullbot",
+      logoUrl: "https://bullbot.ai/favicon.ico",
+      start: "TBA",
+      end: "Present",
+      description:
+        "Bullbot is an advanced Telegram bot integrated with Solana and both DEX & CEX platforms, providing users with trading tools and alerts within chat.",
+    },
+    {
+      company: "pie.fun",
+      href: "https://www.pie.fun/en",
+      badges: ["DeFi", "Solana", "ETF", "Web3"],
+      location: "KR",
+      title: "pie.fun",
+      logoUrl: "https://www.pie.fun/favicon.ico",
+      start: "2023",
+      end: "Present",
+      description:
+        "pie.fun is an on-chain ETF platform built on Solana that lets users invest in narrative-driven token baskets through a single transaction.",
     }
   ],
+  
   education: [
     {
       school: "TBA",
@@ -110,12 +159,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "TBA",
-      href: "https://example.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Moon Wallet",
+      href: "https://gokei.xyz/",
+      dates: "2025 - Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Moon Wallet is a secure, user-friendly multisignature wallet designed for Web3 users. It offers advanced features for complete control over digital assets, ensuring a safe and seamless experience for managing cryptocurrencies and decentralized applications.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -129,7 +178,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://example.com",
+          href: "https://gokei.xyz/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -139,49 +188,19 @@ export const DATA = {
     },
   ],
   hackathons: [
+    
+
     {
-      title: "Example",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Jaction - backbone for Solana Actions & Blinks",
+      dates: "2025",
+      location: "",
       description:
-        "TBA.",
+        "Build your Actions & Blinks effortlessly in seconds without any worries about infrastructure!",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "TBA",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
-      description:
-        "TBA.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
+        "https://jaction.xyz/_next/image?url=%2Fimages%2Fdegen.jpeg&w=1080&q=75",
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
+      
     },
   ],
 } as const;
