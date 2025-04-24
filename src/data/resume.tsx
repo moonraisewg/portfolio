@@ -200,7 +200,7 @@ export const DATA = {
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
       links:[
         {
-          type: "Website",
+          title: "Website",
           href: "https://jaction.xyz/",
           icon: <Icons.globe className="size-3" />,
         }
