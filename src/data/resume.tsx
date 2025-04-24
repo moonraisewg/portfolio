@@ -188,8 +188,6 @@ export const DATA = {
     },
   ],
   hackathons: [
-    
-
     {
       title: "Jaction - backbone for Solana Actions & Blinks",
       dates: "2025",
@@ -200,7 +198,13 @@ export const DATA = {
         "https://jaction.xyz/_next/image?url=%2Fimages%2Fdegen.jpeg&w=1080&q=75",
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      
+      links:[
+        {
+          type: "Website",
+          href: "https://jaction.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ]
     },
   ],
 } as const;
