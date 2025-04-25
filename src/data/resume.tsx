@@ -76,7 +76,7 @@ export const DATA = {
     {
       company: "POLYQUEST",
       href: "https://polyquest.xyz/",
-      badges: ["Solana", "Gaming", "On-chain Quests", "Web3"],
+      badges: ["Solana", "Web3"],
       location: "KR",
       title: "Polyquest",
       logoUrl: "https://polyquest.xyz/favicon.ico",
@@ -88,7 +88,7 @@ export const DATA = {
     {
       company: "UNKOMON",
       href: "https://x.com/unkomon_xyz",
-      badges: ["SocialFi", "NFT", "Solana", "Web3"],
+      badges: ["NFT", "Solana"],
       location: "JP",
       title: "UNKOMON",
       logoUrl: "https://pbs.twimg.com/profile_images/1879805337710350336/WPGCPRvv_400x400.jpg",
@@ -100,7 +100,7 @@ export const DATA = {
     {
       company: "Solid",
       href: "https://mysolid.io/",
-      badges: ["KYC", "Web3", "Privacy"],
+      badges: ["KYC", "Web3"],
       location: "US",
       title: "Solid",
       logoUrl: "https://mysolid.io/logo_black.svg",
@@ -112,7 +112,7 @@ export const DATA = {
     {
       company: "DePocket",
       href: "https://www.depocket.com/",
-      badges: ["DeFi", "Multi-chain", "NFT", "Web3"],
+      badges: [ "NFT", "Web3"],
       location: "VN",
       title: "DePocket",
       logoUrl: "https://www.depocket.com/favicon.ico",
@@ -124,7 +124,7 @@ export const DATA = {
     {
       company: "Bullbot",
       href: "https://bullbot.ai/",
-      badges: ["Telegram Bot", "Solana", "DEX & CEX", "Web3"],
+      badges: [ "Solana",  "Web3"],
       location: "UK",
       title: "Bullbot",
       logoUrl: "/bullbot.png",
@@ -136,7 +136,7 @@ export const DATA = {
     {
       company: "pie.fun",
       href: "https://www.pie.fun/en",
-      badges: ["DeFi", "Solana", "ETF", "Web3"],
+      badges: [ "Solana", "ETF"],
       location: "KR",
       title: "pie.fun",
       logoUrl: "https://www.pie.fun/favicon.ico",
