@@ -80,7 +80,7 @@ export const DATA = {
       location: "KR",
       title: "Polyquest",
       logoUrl: "https://polyquest.xyz/favicon.ico",
-      start: "TBA",
+      start: "2024",
       end: "Present",
       description:
         "Polyquest is an on-chain quest platform powered by Solana, designed for gamers and Web3 communities to engage with decentralized applications through gamified experiences.",
@@ -92,7 +92,7 @@ export const DATA = {
       location: "JP",
       title: "UNKOMON",
       logoUrl: "https://pbs.twimg.com/profile_images/1879805337710350336/WPGCPRvv_400x400.jpg",
-      start: "TBA",
+      start: "2024",
       end: "Present",
       description:
         "UNKOMON is a SocialFi project on Solana blending NFTs and social engagement, aiming to create a unique decentralized identity and interaction experience.",
@@ -104,7 +104,7 @@ export const DATA = {
       location: "US",
       title: "Solid",
       logoUrl: "https://mysolid.io/logo_black.svg",
-      start: "TBA",
+      start: "2024",
       end: "Present",
       description:
         "Solid is a Web3 platform offering privacy-first KYC services that empower users to verify identities while maintaining control over personal data.",
@@ -116,8 +116,8 @@ export const DATA = {
       location: "VN",
       title: "DePocket",
       logoUrl: "https://www.depocket.com/favicon.ico",
-      start: "TBA",
-      end: "Present",
+      start: "2019",
+      end: "2023",
       description:
         "DePocket is a multi-chain DeFi dashboard that allows users to manage crypto assets, DeFi protocols, and NFTs across multiple blockchains in one place.",
     },
@@ -127,9 +127,9 @@ export const DATA = {
       badges: ["Telegram Bot", "Solana", "DEX & CEX", "Web3"],
       location: "UK",
       title: "Bullbot",
-      logoUrl: "https://bullbot.ai/favicon.ico",
-      start: "TBA",
-      end: "Present",
+      logoUrl: "/bullbot.png",
+      start: "2021",
+      end: "2023",
       description:
         "Bullbot is an advanced Telegram bot integrated with Solana and both DEX & CEX platforms, providing users with trading tools and alerts within chat.",
     },
@@ -140,7 +140,7 @@ export const DATA = {
       location: "KR",
       title: "pie.fun",
       logoUrl: "https://www.pie.fun/favicon.ico",
-      start: "2023",
+      start: "2024",
       end: "Present",
       description:
         "pie.fun is an on-chain ETF platform built on Solana that lets users invest in narrative-driven token baskets through a single transaction.",
@@ -184,7 +184,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "/video/videodemo.mp4",
     },
   ],
   hackathons: [
