@@ -76,7 +76,7 @@ export const DATA = {
     {
       company: "POLYQUEST",
       href: "https://polyquest.xyz/",
-      badges: ["Solana", "Gaming", "On-chain Quests", "Web3"],
+      badges: ["Solana", "Web3"],
       location: "KR",
       title: "Polyquest",
       logoUrl: "https://polyquest.xyz/favicon.ico",
@@ -88,7 +88,7 @@ export const DATA = {
     {
       company: "UNKOMON",
       href: "https://x.com/unkomon_xyz",
-      badges: ["SocialFi", "NFT", "Solana", "Web3"],
+      badges: ["NFT", "Solana"],
       location: "JP",
       title: "UNKOMON",
       logoUrl: "https://pbs.twimg.com/profile_images/1879805337710350336/WPGCPRvv_400x400.jpg",
@@ -100,7 +100,7 @@ export const DATA = {
     {
       company: "Solid",
       href: "https://mysolid.io/",
-      badges: ["KYC", "Web3", "Privacy"],
+      badges: ["KYC", "Web3"],
       location: "US",
       title: "Solid",
       logoUrl: "https://mysolid.io/logo_black.svg",
@@ -112,7 +112,7 @@ export const DATA = {
     {
       company: "DePocket",
       href: "https://www.depocket.com/",
-      badges: ["DeFi", "Multi-chain", "NFT", "Web3"],
+      badges: ["NFT", "Web3"],
       location: "VN",
       title: "DePocket",
       logoUrl: "https://www.depocket.com/favicon.ico",
@@ -124,7 +124,7 @@ export const DATA = {
     {
       company: "Bullbot",
       href: "https://bullbot.ai/",
-      badges: ["Telegram Bot", "Solana", "DEX & CEX", "Web3"],
+      badges: ["Solana", "Web3"],
       location: "UK",
       title: "Bullbot",
       logoUrl: "/bullbot.png",
@@ -136,7 +136,7 @@ export const DATA = {
     {
       company: "pie.fun",
       href: "https://www.pie.fun/en",
-      badges: ["DeFi", "Solana", "ETF", "Web3"],
+      badges: ["Solana", "ETF"],
       location: "KR",
       title: "pie.fun",
       logoUrl: "https://www.pie.fun/favicon.ico",
@@ -146,7 +146,7 @@ export const DATA = {
         "pie.fun is an on-chain ETF platform built on Solana that lets users invest in narrative-driven token baskets through a single transaction.",
     }
   ],
-  
+
   education: [
     {
       school: "TBA",
@@ -184,7 +184,31 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/video/videodemo.mp4",
+        "/video/video_gokei.mp4",
+    },
+    {
+      title: "Tool3",
+      href: "https://tool3.xyz/",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Tool3 is a lightweight and flexible Solana tool that helps users perform essential token operations with ease. From creating and managing tokens to gasless swaps and liquidity pool interactions, Tool3 makes on-chain tasks simple and accessible for everyone.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tool3.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/video/video_tool3.mp4",
     },
   ],
   hackathons: [
@@ -198,7 +222,7 @@ export const DATA = {
         "https://jaction.xyz/_next/image?url=%2Fimages%2Fdegen.jpeg&w=1080&q=75",
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links:[
+      links: [
         {
           title: "Website",
           href: "https://jaction.xyz/",
