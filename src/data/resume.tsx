@@ -76,7 +76,7 @@ export const DATA = {
     {
       company: "POLYQUEST",
       href: "https://polyquest.xyz/",
-      badges: ["Solana", "Web3"],
+      badges: ["Solana", "Quests"],
       location: "KR",
       title: "Polyquest",
       logoUrl: "https://polyquest.xyz/favicon.ico",
@@ -112,7 +112,7 @@ export const DATA = {
     {
       company: "DePocket",
       href: "https://www.depocket.com/",
-      badges: ["NFT", "Web3"],
+      badges: ["NFT", "DeFi"],
       location: "VN",
       title: "DePocket",
       logoUrl: "https://www.depocket.com/favicon.ico",
@@ -124,7 +124,7 @@ export const DATA = {
     {
       company: "Bullbot",
       href: "https://bullbot.ai/",
-      badges: ["Solana", "Web3"],
+      badges: ["Solana", "Telegram Bot"],
       location: "UK",
       title: "Bullbot",
       logoUrl: "/bullbot.png",
