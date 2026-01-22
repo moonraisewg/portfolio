@@ -31,18 +31,16 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    if (description) {
-      e.preventDefault();
-      setIsExpanded(!isExpanded);
-    }
+  const handleExpand = (e: React.MouseEvent<SVGElement, MouseEvent>) => {
+    e.preventDefault();
+    setIsExpanded(!isExpanded);
   };
 
   return (
     <Link
       href={href || "#"}
       className="block cursor-pointer"
-      onClick={handleClick}
+      target="_blank"
     >
       <Card className="flex">
         <div className="flex-none">
@@ -74,8 +72,9 @@ export const ResumeCard = ({
                   </span>
                 )}
                 <ChevronRightIcon
+                  onClick={handleExpand}
                   className={cn(
-                    "size-4 translate-x-0 transform opacity-0 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:opacity-100",
+                    "size-4 translate-x-0 transform transition-all duration-300 ease-out hover:scale-125",
                     isExpanded ? "rotate-90" : "rotate-0"
                   )}
                 />

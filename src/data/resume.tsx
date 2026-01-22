@@ -74,16 +74,28 @@ export const DATA = {
 
   work: [
     {
-      company: "POLYQUEST",
-      href: "https://polyquest.xyz/",
-      badges: ["Solana", "Quests"],
-      location: "KR",
-      title: "Polyquest",
-      logoUrl: "https://polyquest.xyz/favicon.ico",
-      start: "2024",
+      company: "SecondSwap",
+      href: "https://www.secondswap.io/",
+      badges: ["DeFi"],
+      location: "SG",
+      title: "SecondSwap",
+      logoUrl: "/secondswap.png",
+      start: "2025",
       end: "Present",
       description:
-        "Polyquest is an on-chain quest platform powered by Solana, designed for gamers and Web3 communities to engage with decentralized applications through gamified experiences.",
+        "SecondSwap is the only decentralized on-chain marketplace for trading locked tokens. It provides a transparent marketplace with optimized pricing, capital-efficient stablecoin settlements, and verified token delivery backed by token issuers.",
+    },
+    {
+      company: "Xitadel",
+      href: "https://xitadel.fi/",
+      badges: ["DeFi", "Stablecoin"],
+      location: "US",
+      title: "Xitadel",
+      logoUrl: "/xitadel.png",
+      start: "2025",
+      end: "Present",
+      description:
+        "Xitadel enables Web3 projects to raise stablecoin liquidity without selling tokens. Projects lock governance tokens as collateral to issue compliant, non-dilutive LTT—preserving treasury value while funding growth.",
     },
     {
       company: "UNKOMON",
