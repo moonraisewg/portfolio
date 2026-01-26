@@ -81,7 +81,7 @@ export const DATA = {
       title: "SecondSwap",
       logoUrl: "/secondswap.png",
       start: "2025",
-      end: "Present",
+      end: "End of 2025",
       description:
         "SecondSwap is the only decentralized on-chain marketplace for trading locked tokens. It provides a transparent marketplace with optimized pricing, capital-efficient stablecoin settlements, and verified token delivery backed by token issuers.",
     },
@@ -105,7 +105,7 @@ export const DATA = {
       title: "UNKOMON",
       logoUrl: "https://pbs.twimg.com/profile_images/1879805337710350336/WPGCPRvv_400x400.jpg",
       start: "2024",
-      end: "Present",
+      end: "End of 2024",
       description:
         "UNKOMON is a SocialFi project on Solana blending NFTs and social engagement, aiming to create a unique decentralized identity and interaction experience.",
     },
@@ -117,7 +117,7 @@ export const DATA = {
       title: "Solid",
       logoUrl: "https://mysolid.io/logo_black.svg",
       start: "2024",
-      end: "Present",
+      end: "End of 2025",
       description:
         "Solid is a Web3 platform offering privacy-first KYC services that empower users to verify identities while maintaining control over personal data.",
     },
@@ -153,7 +153,7 @@ export const DATA = {
       title: "pie.fun",
       logoUrl: "https://www.pie.fun/favicon.ico",
       start: "2024",
-      end: "Present",
+      end: "End of 2024",
       description:
         "pie.fun is an on-chain ETF platform built on Solana that lets users invest in narrative-driven token baskets through a single transaction.",
     }
@@ -170,34 +170,6 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Moon Wallet",
-      href: "https://gokei.xyz/",
-      dates: "2025 - Present",
-      active: true,
-      description:
-        "Moon Wallet is a secure, user-friendly multisignature wallet designed for Web3 users. It offers advanced features for complete control over digital assets, ensuring a safe and seamless experience for managing cryptocurrencies and decentralized applications.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://gokei.xyz/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "/video/video_gokei.mp4",
-    },
     {
       title: "Tool3",
       href: "https://tool3.xyz/",
@@ -222,6 +194,34 @@ export const DATA = {
       video:
         "/video/video_tool3.mp4",
     },
+        {
+      title: "Gokei",
+      href: "https://gokei.xyz/",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Gokei is a secure, user-friendly multisignature wallet designed for Web3 users. It offers advanced features for complete control over digital assets, ensuring a safe and seamless experience for managing cryptocurrencies and decentralized applications.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://gokei.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/video/video_gokei.mp4",
+    }
   ],
   hackathons: [
     {
